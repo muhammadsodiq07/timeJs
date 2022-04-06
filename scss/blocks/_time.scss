@@ -19,9 +19,9 @@
   border-radius: 50%;
   background: orange;
   transition:  all 0.2s ease;
-  animation: myAnim 1s infinite ease;
+  animation: timeJs 1s infinite ease;
 }
-@keyframes myAnim {
+@keyframes timeJs {
   0%{
     transform: scale(1);
   }

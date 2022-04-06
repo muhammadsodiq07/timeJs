@@ -86,11 +86,11 @@ img {
   background: orange;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
-  -webkit-animation: myAnim 1s infinite ease;
-          animation: myAnim 1s infinite ease;
+  -webkit-animation: timeJs 1s infinite ease;
+          animation: timeJs 1s infinite ease;
 }
 
-@-webkit-keyframes myAnim {
+@-webkit-keyframes timeJs {
   0% {
     -webkit-transform: scale(1);
             transform: scale(1);
@@ -101,7 +101,7 @@ img {
   }
 }
 
-@keyframes myAnim {
+@keyframes timeJs {
   0% {
     -webkit-transform: scale(1);
             transform: scale(1);
