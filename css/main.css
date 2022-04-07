@@ -68,6 +68,12 @@ img {
   background: #fff;
 }
 
+.div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .span {
   width: 40px;
   height: 40px;

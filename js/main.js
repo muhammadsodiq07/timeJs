@@ -12,6 +12,7 @@ setTimeout(() => {
   document.querySelector(".mainDiv").style.display = 'block';
 },4000)
 
+
 elButton.addEventListener("click", () => {
   let span = document.createElement("span");
   span.className = 'span';
